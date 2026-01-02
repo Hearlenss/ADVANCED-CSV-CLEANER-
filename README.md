@@ -1,4 +1,4 @@
-# 🦅 ANKA TEAM – Advanced CSV Cleaner v2.3
+#  ANKA TEAM – Advanced CSV Cleaner v2.3
 
 Schema-Agnostic • Automatic • Secure Data Cleaning Tool
 
@@ -7,7 +7,7 @@ CSV dosyalarını **otomatik algılayıp temizleyen** gelişmiş bir Python arac
 
 ---
 
-## 🚀 Özellikler
+## Özellikler
 
 - **Schema-Agnostic Engine**
   - CSV başlıkları farklı olsa bile otomatik kolon algılama
@@ -55,7 +55,7 @@ CSV dosyalarını **otomatik algılayıp temizleyen** gelişmiş bir Python arac
 
 ---
 
-## 🧠 Nasıl Çalışır?
+##  Nasıl Çalışır?
 
 1. CSV başlıklarını analiz eder  
 2. Alias mantığıyla kolonları eşleştirir  
@@ -66,7 +66,7 @@ CSV dosyalarını **otomatik algılayıp temizleyen** gelişmiş bir Python arac
 
 ---
 
-## ⚙️ Kurulum
+##  Kurulum
 
 Python 3.8+
 
@@ -74,7 +74,7 @@ Python 3.8+
 pip install openpyxl
 Diğer tüm kütüphaneler Python ile birlikte gelir.
 
-▶️ Kullanım
+ Kullanım
 bash
 Kodu kopyala
 python anka_csv_cleaner.py
