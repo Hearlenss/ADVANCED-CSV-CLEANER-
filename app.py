@@ -4,11 +4,6 @@ import json
 import os
 from datetime import datetime
 from openpyxl import Workbook
-1
-
-# =========================
-# ALIAS & KORUMA
-# =========================
 
 FIELD_ALIASES = {
     "name": [
@@ -63,10 +58,6 @@ def auto_output_names(input_file):
     )
 
 
-# =========================
-# VALIDATION
-# =========================
-
 def is_valid_email(email):
     if not email:
         return False
@@ -100,9 +91,6 @@ def normalize_date(date_str):
     return ""
 
 
-# =========================
-# EXCEL EXPORT
-# =========================
 
 def write_excel(output_xlsx, headers, rows):
     wb = Workbook()
@@ -117,9 +105,7 @@ def write_excel(output_xlsx, headers, rows):
     wb.save(output_xlsx)
 
 
-# =========================
-# CORE CLEANER
-# =========================
+
 
 def clean_single_csv(input_file, output_csv, output_json, log_file, output_xlsx):
     cleaned_rows = []
@@ -200,9 +186,7 @@ def clean_single_csv(input_file, output_csv, output_json, log_file, output_xlsx)
     print(f"✔ {input_file} → {len(cleaned_rows)} kayıt")
 
 
-# =========================
-# UI
-# =========================
+
 
 def print_logo():
     print(r"""
