@@ -35,7 +35,7 @@ CSV dosyalarını **otomatik algılayıp temizleyen** gelişmiş bir Python arac
 
 ---
 
-## 📂 Otomatik Algılanan Alanlar
+##  Otomatik Algılanan Alanlar
 
 - name
 - email
